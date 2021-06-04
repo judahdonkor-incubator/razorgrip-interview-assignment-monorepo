@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "express": "https://github.com/judahdonkor-incubator/razorgrip-interview-assignment-express.git",
+    "react": "https://github.com/judahdonkor-incubator/razorgrip-interview-assignment-react.git"
+  }
+}
