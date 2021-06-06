@@ -10,6 +10,9 @@
     "build": "meta git update && run-p build:**",
     "start": "node express/build ../../react/build"
   },
+  "engines": {
+    "yarn": "1.22.5"
+  },
   "keywords": [],
   "author": "judahdonkor <judahdonkor@gmail.com> (https://judahdonkor.me)",
   "license": "MIT",
