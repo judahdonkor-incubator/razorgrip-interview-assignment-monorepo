@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:express": "cd express && npm i && npm run build",
-    "build:react": "cd react && yarn && yarn build",
+    "build:express": "cd express && npm i --production=false && npm run build",
+    "build:react": "cd react && yarn --production=true && yarn build",
     "build": "meta git update && run-p build:**",
     "start": "node express/build ../../react/build"
   },
